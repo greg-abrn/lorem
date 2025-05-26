@@ -1,12 +1,12 @@
 import "./App.css";
+import Section from "./components/Section";
 
 const App = () => {
   return (
-    <>
-      <main>
-        <Section
-          sectionTitle={"Lorem"}
-          sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
+    <main>
+      <Section
+        sectionTitle="Lorem"
+        sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
           architecto nobis enim ipsam eum tenetur provident sapiente sequi?
           Recusandae placeat aliquam eius nobis sequi nam molestias maiores
           voluptate fugit? Lorem ipsum dolor sit amet consectetur adipisicing
@@ -17,11 +17,11 @@ const App = () => {
           Aperiam voluptas blanditiis saepe tempora. Consequuntur adipisci
           doloribus asperiores vel ipsum voluptatum harum quae! Autem, doloribus
           assumenda! Quo corrupti in omnis harum!"
-        />
+      />
 
-        <Section
-          sectionTitle={"Ipsum"}
-          sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
+      <Section
+        sectionTitle="Ipsum"
+        sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
           architecto nobis enim ipsam eum tenetur provident sapiente sequi?
           Recusandae placeat aliquam eius nobis sequi nam molestias maiores
           voluptate fugit? Lorem ipsum dolor sit amet consectetur adipisicing
@@ -32,9 +32,8 @@ const App = () => {
           Aperiam voluptas blanditiis saepe tempora. Consequuntur adipisci
           doloribus asperiores vel ipsum voluptatum harum quae! Autem, doloribus
           assumenda! Quo corrupti in omnis harum!"
-        />
-      </main>
-    </>
+      />
+    </main>
   );
 };
 
