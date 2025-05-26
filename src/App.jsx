@@ -1,12 +1,12 @@
 import "./App.css";
-import Section from "./components/Section";
+import Content from "./components/Content";
 
 const App = () => {
   return (
     <main>
-      <Section
-        sectionTitle="Lorem"
-        sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
+      <Content
+        name="Lorem"
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
           architecto nobis enim ipsam eum tenetur provident sapiente sequi?
           Recusandae placeat aliquam eius nobis sequi nam molestias maiores
           voluptate fugit? Lorem ipsum dolor sit amet consectetur adipisicing
@@ -19,9 +19,9 @@ const App = () => {
           assumenda! Quo corrupti in omnis harum!"
       />
 
-      <Section
-        sectionTitle="Ipsum"
-        sectionContent="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
+      <Content
+        name="Ipsum"
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea,
           architecto nobis enim ipsam eum tenetur provident sapiente sequi?
           Recusandae placeat aliquam eius nobis sequi nam molestias maiores
           voluptate fugit? Lorem ipsum dolor sit amet consectetur adipisicing
